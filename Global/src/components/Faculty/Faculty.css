@@ -1,0 +1,118 @@
+body {
+   font-family: Arial;
+   letter-spacing: 0.055em;
+   font-weight: 700;
+   color: #fff;
+}
+
+.container {
+   max-width: 1300px;
+   padding: 0 5px;
+   margin: 0 auto;
+}
+
+a {
+   display: block;
+   text-decoration: none;
+}
+
+p {
+   margin: 0;
+   padding: 0;
+}
+
+.faculties {
+   background-color: #110022;
+}
+
+.faculty-top {
+   border-bottom: 2px solid #c4c4c4;
+}
+
+.faculty-top-inner {
+   padding: 25px 0;
+}
+
+.faculty-title {
+   font-size: 45px;
+   line-height: 51px;
+   margin-bottom: 62px;
+}
+
+.faculty-text {
+   padding-left: 100px;
+   position: relative;
+}
+
+.faculty-text:before {
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: -12px;
+   background-image: url(images/faculty_icon.svg);
+   width: 58px;
+   height: 68px;
+}
+
+.faculty-inner-text {
+   display: flex;
+   align-items: center;
+   width: 75%;
+   justify-content: space-between;
+}
+
+.top_text {
+   font-size: 14px;
+   line-height: 16px;
+}
+
+.bottom_text {
+   font-size: 20px;
+   line-height: 23px;
+   margin-top: 5px;
+}
+
+.faculty-link-item {
+   font-size: 14px;
+   line-height: 16px;
+   color: #fff;
+   padding: 19px 58px;
+   border-radius: 67px;
+   background: linear-gradient(90.6deg, #3D04B7 3%, #235BEB 99.55%);
+}
+
+.faculty-menu {
+   width: 50%;
+   margin-top: 70px;
+}
+
+.faculty-menu-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.menu-items {
+   position: relative;
+   transition: all .3s;
+}
+
+.menu-items:after {
+   content: "";
+   position: absolute;
+   top: 43px;
+   height: 5px;
+   width: 100%;
+   background-color: #430099;
+}
+
+.faculty-menu-link {
+   font-size: 19px;
+   line-height: 22px;
+   color: #fff;
+   opacity: 60%;
+}
+
+.faculty-menu-link:hover {
+   opacity: 100%;
+}

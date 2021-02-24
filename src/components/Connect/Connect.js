@@ -6,10 +6,8 @@ const Connect = () => (
    <div className="connect">
       <ConHeader />    
       <div className="container">
-         <div className="connect-inner">
-            
+         <div className="connect-inner">          
             <div className="connect-text-inner">
-
                <div className="connect-form">
                <p className="connect-text">
                   Եթե ունեք հարցեր կարող եք պատվիրել զանգ և մեր մասնագետները կկապնվեն ձեզ հետ

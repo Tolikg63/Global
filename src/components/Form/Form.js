@@ -28,24 +28,23 @@ const Form = () => {
                   </li>
                </ul>
                <ul className="training__list training__list-second">
+                  <div className="flex-wrapper">
                      <li className="training__item block-element-1">
-                        <div className="flex">
-                           <input className="input__radio" type="radio" id="input3" value="option1" name="Myradio2"/>
-                           <label className="input__label" htmlFor="input3">Վիդեո դասեր</label>
-                        </div>
+                        <input className="input__radio" type="radio" id="input3" value="option1" name="Myradio2"/>
+                        <label className="input__label" htmlFor="input3">Վիդեո դասեր</label>
                      </li>
                      <li className="training__item block-element-2">
                         <input className="input__radio" type="radio" id="input4" value="option2" name="Myradio2"/>
                         <label className="input__label" htmlFor="input4">Դասասենյակում</label>   
                      </li>
-                  
+                  </div>
                   <li className="training__item block-element-3">
                      <input className="input__radio" type="radio" id="input5" value="option3" name="Myradio2"/>
                      <label className="input__label input__label-flex" htmlFor="input5">Ուղիղ միացմամբ</label>   
                   </li>
                </ul>
                <ul className="training__list training__list-third">
-                  
+                  <div className="flex-wrapper">
                      <li className="training__item block-element-1">
                         <input className="input__radio" type="radio" id="input6" value="option1" name="Myradio3"/>
                         <label className="input__label" htmlFor="input6">Հայերեն</label>   
@@ -54,7 +53,7 @@ const Form = () => {
                         <input className="input__radio" type="radio" id="input7" value="option2" name="Myradio3"/>
                         <label className="input__label" htmlFor="input7">Ռուսերեն</label>   
                         </li>
-                   
+                  </div> 
                   <li className="training__item block-element-3">
                      <input className="input__radio" type="radio" id="input8" value="option3" name="Myradio3"/>
                      <label className="input__label input__label-flex" htmlFor="input8">Անգլերեն</label>                  

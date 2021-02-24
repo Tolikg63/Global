@@ -7,8 +7,8 @@ import Connect from './components/Connect/Connect'
 function App() {
   return (
     <div className="App">
-      {/* <Form /> */}
-      <Connect />
+      <Form />
+      {/* <Connect /> */}
       {/* <Faculty /> */}
     </div>
   );

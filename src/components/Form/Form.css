@@ -120,6 +120,15 @@ label {
    background: linear-gradient(to right, #D629D5, #F36F49);
 }
 
+.flex-wrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.block-element-1 + li {
+   margin-left: 20px;
+}
 
 @media (max-width: 1400px) {
    .form {
@@ -147,6 +156,10 @@ label {
    }
    .first-item, .input__label {
       width: 100%;
+   }
+
+   .flex-wrapper > .training__item {
+      width: 50%;
    }
 
    .input__label {
